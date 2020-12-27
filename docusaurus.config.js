@@ -7,7 +7,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'mathology',
-  projectName: 'mathology-documentation',
+  projectName: 'mathology-docs',
   themeConfig: {
     colorMode: {
       respectPrefersColorScheme: true,
@@ -69,7 +69,7 @@ module.exports = {
             },
             {
               label: 'Mathology Docs',
-              href: 'https://github.com/mathology-lms/mathology-documentation',
+              href: 'https://github.com/mathology-lms/mathology-docs',
             },
           ],
         },
@@ -118,7 +118,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/mathology-lms/mathology-documentation/edit/master/docs/',
+            'https://github.com/mathology-lms/mathology-docs/edit/master/docs/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
